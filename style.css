@@ -1,0 +1,61 @@
+img {
+    float: right;
+}
+
+p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    border-bottom: 2px solid #62FF7E;
+    border-top: 2px solid #62FF7E;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #62FF7E;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+div {
+    height: 330px;
+    width: 338px;
+}
+
+body {
+    background-color: #FBF3F3;
+    color: #021906;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    background-color: #B9FFB9;
+    font-size: 20px;
+}
+
+.не_тот {
+    display: flex;
+}
+
+.не_тот_текст {
+    text-align: center;
+}
+
+.совсем_не_тот_текст  {
+    text-align: left;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    color: #439400;
+}
