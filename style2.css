@@ -1,10 +1,7 @@
-img {
-    float: right;
-}
-
 p {
     text-align: center;
     margin-top: 30px;
+    font-size: 20px;
 }
 
 nav {
@@ -23,11 +20,6 @@ nav a {
     margin-bottom: 15px;
 }
 
-div {
-    height: 330px;
-    width: 338px;
-}
-
 body {
     background-color: #FBF3F3;
     color: #021906;
@@ -42,21 +34,51 @@ footer {
     font-size: 20px;
 }
 
-.не_тот {
+.текст_прошлого{
+    text-align: justify;
+    width: 12cm;
+    height: 16cm;
+}
+
+.google {
+    font-size: 20px;
+    color: #439400;
+    text-align: right;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+div {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-.не_тот_текст {
-    text-align: center;
+span {
+    font-size: 15px;
 }
 
-.совсем_не_тот_текст  {
+.портной {
+    font-size: 25px;
+}
+
+.заголовок_прошлого {
+    text-align: right;
+}
+
+.картинки {
+    margin-top: -190px;
+}
+
+.заголовок_настоящего {
     text-align: left;
 }
 
-h2 {
-    font-size: 50px;
-    text-align: center;
-    color: #439400;
+.текст_наст {
+    width: 10cm;
 }
