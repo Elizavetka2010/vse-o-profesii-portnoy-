@@ -8,21 +8,32 @@ nav {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
-    border-bottom: 2px solid #62FF7E;
-    border-top: 2px solid #62FF7E;
+    border-bottom: 2px solid rgb(57, 122, 69);
+    border-top: 2px solid rgb(57, 122, 69);
 }
 
 nav a {
     text-decoration: none;
     font-size: 20px;
-    color: #62FF7E;
+    color: rgb(57, 122, 69);
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
+
+nav a:hover {
+    color: #FBF3F3;
+    background-color: #237030;
+}
+
+nav a:focus {
+    color: #9A355F;
+    background-color: #FBF3F3;
+}
+
 body {
     background-color: #FBF3F3;
-    color: #021906;
+    color: #000000;
 }
 
 h1 {
@@ -34,6 +45,63 @@ footer {
     font-size: 20px;
 }
 
+.текст_прошлого{
+    text-align: justify;
+    width: 12cm;
+    height: 16cm;
+}
+
+.google {
+    font-size: 20px;
+    color: #439400;
+    text-align: right;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+}
+
+span {
+    font-size: 15px;
+}
+
+.портной {
+    font-size: 25px;
+}
+
+.заголовок_прошлого {
+    text-align: right;
+}
+
+.картинки {
+    margin-top: -190px;
+}
+
+.заголовок_настоящего {
+    text-align: left;
+}
+
+.текст_наст {
+    width: 10cm;
+}
+
+.текст_буд {
+    height: 6cm;
+    margin: 20px 50px 20px 50px;
+}
+
+.другой {
+    margin-top: -100px;
+}
 .текст_прошлого{
     text-align: justify;
     width: 12cm;
