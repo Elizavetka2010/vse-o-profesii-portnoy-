@@ -102,3 +102,8 @@ span {
 .другой {
     margin-top: -100px;
 }
+
+html, body {
+margin: 0px;
+padding: 0px;
+}
