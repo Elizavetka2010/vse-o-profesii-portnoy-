@@ -43,6 +43,8 @@ h1 {
 footer {
     background-color: #B9FFB9;
     font-size: 20px;
+    position:fixed;
+    top: 95%;
 }
 
 .текст_прошлого{
