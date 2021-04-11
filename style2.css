@@ -150,3 +150,8 @@ span {
 .текст_наст {
     width: 10cm;
 }
+
+html, body {
+margin: 0px;
+padding: 0px;
+}
